@@ -13,6 +13,7 @@ const app = express();
 
 // Middleware to parse JSON bodies
 app.use(express.json());
+app.use('/api/auth', require('./routes/authRoutes'));
 
 // Basic Health Check Route
 app.get('/', (req, res) => {
