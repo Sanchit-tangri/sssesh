@@ -35,7 +35,7 @@ async function startServer() {
   console.log(`Server will listen on port: ${PORT}`);
 
   // MongoDB Connection
-  const MONGODB_URI = process.env.MONGODB_URI || "mongodb+srv://SSSeshadmin:uo09PSO03ejcTHq1@sssesh.dzwyopj.mongodb.net/?appName=SSSesh";
+  const MONGODB_URI = process.env.MONGODB_URI || "";
   console.log("Connecting to MongoDB...");
 
   const connectWithRetry = () => {
