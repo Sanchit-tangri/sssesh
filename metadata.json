@@ -1,0 +1,5 @@
+{
+  "name": "SSSesh",
+  "description": "A scalable, real-time collaborative music streaming platform for seamless jamming sessions.",
+  "requestFramePermissions": ["autoplay", "encrypted-media", "fullscreen"]
+}
